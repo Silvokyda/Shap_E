@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-from diffusers import DiffusionPipeline
 from PIL import Image
 from diffusers import ShapEImg2ImgPipeline
 from diffusers.utils import export_to_gif, load_image
